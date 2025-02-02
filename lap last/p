@@ -1,0 +1,29 @@
+<html>
+ <head> <title> User registration Page (form with Input types demo)</title> </head>
+ <body>
+    <h1>Register to our traditional nepali weddings packages!</h1>
+
+     <form method="post" action="/register">
+
+            <label for="name_input">Your Full Names are</label> <br> <input type="text" name="names" id="names_form_text" required/><br/>
+
+             <label for="email">Your email address: </label><br>
+                 <input type ="email"  name = "email"   id = "email"  required/><br/>
+
+                 <label for="preference_text"  >Input text location preference  for this package: </label>
+                     <input type="text"  name = "address_location" id = "address"  placeholder ="optional place details for preference"/><br>
+                     <label>Your Prefer list (demo form to track input) <select  id ="list" name ="preference_list" >
+                       <option  value ="package-A-default"> Default package </option>
+                            <option  value ="package-B-preimum"> premium package (Extra charge) </option>
+
+                         </select>  </label>
+
+                             <br>
+              <br> <input type = "submit"   value = "Click and send submit and view options to finalize"/>
+
+    </form>
+
+ </body>
+
+</html>
+```
